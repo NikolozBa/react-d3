@@ -1,0 +1,30 @@
+@import "../Variables/Variables.scss";
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+
+    .sectionContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30%;
+
+        h2{
+            @include titletext(60px);
+            margin: 0px;
+        }
+
+        div{
+            @include bodyText(20px);
+        }
+
+        a{
+            @include bodyText(18);
+        }
+    }
+
+
+}

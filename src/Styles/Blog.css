@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+.blogSection {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogSection > :first-child {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blogSection > :first-child h2 {
+  font-family: "Playfair Display", serif;
+  color: #2F2E41;
+  font-size: 60px;
+}
+
+.blogSection > :first-child button {
+  background-color: #FFFFFF;
+  color: #6C63FF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #6C63FF;
+  height: 54px;
+  width: 120px;
+}
+
+.blogSection > :last-child {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogSection > :last-child > div {
+  width: 330px;
+  height: 415px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.blogSection > :last-child > div img {
+  width: 330px;
+}
+
+.blogSection > :last-child > div > div:nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  color: #9893A3;
+  font-size: 22px;
+  color: #2F2E41;
+}
+
+.blogSection > :last-child > div > div:nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  color: #9893A3;
+  font-size: 16px;
+}
+
+.blogSection > :last-child > div a {
+  font-family: "Open Sans", sans-serif;
+  color: #9893A3;
+  font-size: 18;
+  color: #2F2E41;
+}
+/*# sourceMappingURL=Blog.css.map */

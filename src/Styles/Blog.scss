@@ -1,0 +1,58 @@
+@import "../Variables/Variables.scss";
+
+.blogSection{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    >:first-child{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2{
+            @include titletext(60px);
+        }
+        button{
+            @include whiteButton();
+            height: 54px;
+            width: 120px;
+        }
+    }
+
+    >:last-child{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+        >div{
+            width: 330px;
+            height: 415px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                width: 330px;
+            }
+
+            >div:nth-child(2){
+                @include bodyText(22px);
+                color: $neutralDarkColor;
+
+            }
+            >div:nth-child(3){
+                @include bodyText(16px);
+            }
+
+            a{
+                @include bodyText(18);
+                color: $neutralDarkColor;
+            }
+        }
+    }
+}

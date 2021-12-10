@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAE,KAAK;CAKpB;;AATD,AAMI,SANK,CAML,GAAG,CAAA;EACC,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "LogoList.scss"
+    ],
+    "names": [],
+    "file": "LogoList.css"
+}

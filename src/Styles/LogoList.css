@@ -1,0 +1,15 @@
+.logolist {
+  width: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 125px;
+}
+
+.logolist img {
+  height: 27px;
+}
+/*# sourceMappingURL=LogoList.css.map */

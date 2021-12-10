@@ -1,0 +1,34 @@
+@import "../Variables/Variables.scss";
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    div:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 35%;
+
+        h1{
+            @include titletext(86px);
+            margin: 0px;
+        }
+
+        div:nth-child(2){
+            @include bodyText(20px);
+        }
+
+        div:last-child{
+            button{
+                @include purpleButton();
+                height: 51px;
+                width: 140px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+
+}

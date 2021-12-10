@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+.planSection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+.planSection h2 {
+  font-family: "Playfair Display", serif;
+  color: #2F2E41;
+  font-size: 60px;
+}
+
+.planSection > :nth-child(2) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.planSection > :nth-child(2) .bigBox {
+  height: 502px;
+  width: 363px;
+  background-color: #6C63FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+.planSection > :nth-child(2) .bigBox > :first-child {
+  margin-top: 70px;
+}
+
+.planSection > :nth-child(2) .bigBox > :nth-child(2) span {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.planSection > :nth-child(2) .bigBox > :last-child {
+  margin-bottom: 70px;
+}
+
+.planSection > :nth-child(2) .bigBox button {
+  width: 186px;
+  height: 54px;
+  background-color: #FFFFFF;
+  color: #6C63FF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #6C63FF;
+  font-weight: bold;
+}
+
+.planSection > :nth-child(2) .smallBox {
+  height: 421px;
+  width: 363px;
+  background-color: #dfdef14d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  color: #2F2E41;
+}
+
+.planSection > :nth-child(2) .smallBox > :first-child {
+  margin-top: 70px;
+}
+
+.planSection > :nth-child(2) .smallBox > :nth-child(2) span {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.planSection > :nth-child(2) .smallBox > :last-child {
+  margin-bottom: 70px;
+}
+
+.planSection > :nth-child(2) .smallBox button {
+  width: 186px;
+  height: 54px;
+  background-color: #FFFFFF;
+  color: #6C63FF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #6C63FF;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Plan.css.map */

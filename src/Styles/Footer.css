@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+.footer {
+  width: 100%;
+  background-color: #f5f5fb;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container {
+  width: 75%;
+}
+
+.footer .container .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footerContent > div:first-child {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footerContent > div:first-child > div {
+  width: 115px;
+}
+
+.footer .container .footerContent > div:first-child > div > div {
+  margin-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+  color: #9893A3;
+  font-size: 16px;
+}
+
+.footer .container .footerContent > div:first-child > div > div:first-child {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #9893A3;
+  font-size: 18px;
+  color: #2F2E41;
+}
+
+.footer .container .footerContent > div:first-child > div:last-child > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footerContent > div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+/*# sourceMappingURL=Footer.css.map */

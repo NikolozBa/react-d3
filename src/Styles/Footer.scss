@@ -1,0 +1,56 @@
+@import "../Variables/Variables.scss";
+
+
+.footer{
+    width: 100%;
+    background-color: $neutralLightColor;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+
+    .container{
+        width: 75%;
+        
+        .footerContent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >div:first-child{
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 75%;
+                display: flex;
+                justify-content: space-between;
+
+                >div{
+                    width: 115px;
+                    >div{
+                        margin-bottom: 8px;
+                        @include bodyText(16px);
+                    }
+                    >div:first-child{
+                        margin-bottom: 20px;
+                        @include bodyText(18px);
+                        color: $neutralDarkColor;
+                    }
+                    
+                }
+                >div:last-child{
+                    >div:last-child{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            >div:last-child{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+
+$primaryColor: #6C63FF;
+$neutralColor: #9893A3;
+$neutralDarkColor: #2F2E41;
+$neutralLightColor: #f5f5fb;
+$whiteColor: #FFFFFF;
+
+
+$titleFont: 'Playfair Display', serif;
+$bodyFont: 'Open Sans', sans-serif;
+
+
+@mixin bodyText($size){
+    font-family: $bodyFont;
+    color: $neutralColor;
+    font-size: $size;
+}
+
+@mixin titletext($size) {
+    font-family: $titleFont;
+    color: $neutralDarkColor;
+    font-size: $size;
+}
+
+@mixin whiteButton {
+    background-color: $whiteColor;
+    color: $primaryColor;
+    font-family: $bodyFont;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid $primaryColor;
+}
+
+@mixin purpleButton {
+    background-color: $primaryColor;
+    color: $whiteColor;
+    font-family: $bodyFont;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid $primaryColor;
+    
+}
+
+@mixin planBoxStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: $bodyFont;
+    color: $whiteColor;
+    
+    >:first-child{
+        margin-top: 70px;
+    }
+    >:nth-child(2){
+        
+        span{
+            font-size: 52px;
+            font-weight: bold;
+        }
+    }
+    >:last-child{
+        margin-bottom: 70px;
+    }
+
+    button{
+        width: 186px;
+        height: 54px;
+        @include whiteButton();
+        font-weight: bold;
+    }
+}
